@@ -1,51 +1,47 @@
 main {
+  padding: 30px;
+  /* setting font-size to 0 on the parent of a set of inline block elements removes white space between them.    */
   font-size: 0;
-}
-
-
-.box-parent {
-  margin-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
   width: 800px;
+  margin: auto;
 }
 
-.box {
-  border: 1px solid black;
-  display: inline-block;
-}
-
-.box_half {
-  width: 50%;
+.inner {
   height: 200px;
+  width: 50%;
+  display: inline-block;
+  font-size: 0;
+  border: 1px solid black;
+}
+.outer {
+	height: 300px;
+	width: 33.33%;
+	display: inline-block;
+	font-size: 0;
+	border: 1px solid black;
 }
 
-.box_third {
-  width: 33.33%;
-  height: 300px;
+.inner-one {
+   background-color: green;
+   border: 1px solid black;
 }
 
-.black {
-  background-color: black;
-  border: 1px solid;
-}
-
-.green {
-  background-color: green;
-}
-
-.grey {
-  background-color: grey;
-}
-
-.blue {
+.inner-two {
   background-color: blue;
+  border: 1px solid black;
 }
 
-.orange {
-  background-color: orange
+.outer-three {
+  background-color: grey;
+  border: 1px solid black;
 }
 
-.centered {
-  text-align: center;
+.outer-four {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.outer-five{
+background-color: orange;
+border: 1px solid black;
 }
