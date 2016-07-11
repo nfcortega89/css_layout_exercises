@@ -1,1 +1,54 @@
+nav {
+    position: fixed;
+    height: 200px;
+    width: 100%;
+    background-color: grey;
+    border-bottom: 1px solid black;
+}
 
+.links {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    position: relative;
+    top: 75px;
+    left: 200px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.greenbox {
+	position: relative;
+	top: 350px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
+	height: 300px;
+	border: 10px green dotted;
+}
+body {
+	background: url(/Users/Nikko/desktop/Projects/css_layout_exercises/images/outerspace_landscape.jpeg);
+	background-size: 100%;
+}
+picture{
+	position: relative;
+}
+.dog {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+.cat {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 140px;
+	top: 430px;
+	}
