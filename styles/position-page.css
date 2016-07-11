@@ -25,8 +25,9 @@ li {
     left: 25px;
 }
 .greenbox {
-	position: relative;
+	position: absolute;
 	top: 350px;
+	left: 400px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 600px;
@@ -34,21 +35,23 @@ li {
 	border: 10px green dotted;
 }
 body {
-	background: url(/Users/Nikko/desktop/Projects/css_layout_exercises/images/outerspace_landscape.jpeg);
+	background: url(file:///C:/Users/Kayla/Documents/css_layout_exercises/images/outerspace_landscape.jpeg);
 	background-size: 100%;
 }
-picture{
-	position: relative;
+section{
+	position: absolute;
 }
 .dog {
 	width: 200px;
 	height: 200px;
-	position: absolute;
+	position: relative;
+	top: 550px;
+	left: 675px;
 }
 .cat {
 	width: 200px;
 	height: 200px;
 	position: relative;
-	left: 140px;
-	top: 430px;
+	left: 310px;
+	top: 245px;
 	}
